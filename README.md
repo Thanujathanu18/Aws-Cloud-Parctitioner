@@ -1,5 +1,5 @@
 # Aws-Cloud-Parctitioner
-aws-cloud-partitioner/
+aws-cloud-parctitioner/
 ├── README.md
 ├── .gitignore
 ├── scripts/
