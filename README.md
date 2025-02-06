@@ -30,19 +30,32 @@ This project automates the partitioning of AWS resources for improved scalabilit
 - Automates the creation of AWS partitions
 - Supports CloudFormation and Terraform templates
 - Provides partition management scripts for cleanup and monitoring
-- Extensible for various AWS services (e.g., EC2, RDS, S3)
+- Extensible for various AWS services
+
+### AWS Key Services
+ -Amazon EC2 (Elastic Compute Cloud)
+ -AWS Lambda
+ -Amazon ECS (Elastic Container Service)
+ -Storage Services
+ -Amazon S3 (Simple Storage Service)
+ -Amazon EBS (Elastic Block Store)
+ -Amazon EFS (Elastic File System)
+ -Amazon FSx
+ -Amazon Glacier
+ -AWS Storage Gateway
+
 
 ## Getting Started
 
 ### Prerequisites
 
 - Python 3.x
-- AWS CLI configured with proper credentials
+- AWS CLI configured with proper credential
 
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/aws-cloud-partitioner.git
-cd aws-cloud-partitioner
+git clone https://github.com/thanujathanu18/Aws-Cloud-Partitioner.git
+cd Aws-Cloud-Partitioner
 pip install -r requirements.txt
 
